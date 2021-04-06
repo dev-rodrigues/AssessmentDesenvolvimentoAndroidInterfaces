@@ -5,18 +5,23 @@
     android:id="@+id/fragment_publicacoes"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.publicacoes.PublicacoesFragment"
-    android:orientation="horizontal">
+    android:orientation="horizontal"
+    tools:context=".ui.publicacoes.PublicacoesFragment">
 
     <TextView
-        android:id="@+id/textView13"
+        android:id="@+id/textView15"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="174dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="80dp"
         android:layout_marginEnd="8dp"
-        android:text="Publicacoes"
+        android:autoLink="web"
+        android:clickable="true"
+        android:text="https://www.linkedin.com/posts/carlos-henrique-dos-santos-rodrigues-33b28b149_jvm-ergonomics-em-containers-activity-6771217877958746113-JssH"
+        android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText,MissingConstraints" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

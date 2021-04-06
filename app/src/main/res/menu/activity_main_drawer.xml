@@ -9,11 +9,11 @@
             android:icon="@drawable/ic_profile"
             android:title="@string/menu_informacoes_pessoais" />
         <item
-            android:id="@+id/nav_gallery"
+            android:id="@+id/nav_formacao"
             android:icon="@drawable/ic_formation"
             android:title="@string/menu_formacao" />
         <item
-            android:id="@+id/nav_slideshow"
+            android:id="@+id/nav_experiencia_profissional"
             android:icon="@drawable/ic_work"
             android:title="@string/menu_experiencia_profissional" />
         <item

@@ -12,24 +12,24 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/nav_gallery"
+        android:id="@+id/nav_formacao"
         android:name="br.edu.infnet.carlos.ui.Formacao.FormacaoFragment"
         android:label="@string/menu_formacao"
-        tools:layout="@layout/fragment_gallery" />
+        tools:layout="@layout/fragment_formacao" />
 
     <fragment
-        android:id="@+id/nav_slideshow"
+        android:id="@+id/nav_experiencia_profissional"
         android:name="br.edu.infnet.carlos.ui.ExperienciaProfissional.ExperienciaProfissionalFragment"
         android:label="@string/menu_experiencia_profissional"
-        tools:layout="@layout/fragment_slideshow" />
+        tools:layout="@layout/fragment_experiencia_profissional" />
     <fragment
         android:id="@+id/nav_cursos"
         android:name="br.edu.infnet.carlos.ui.Cursos.CursosFragment"
-        android:label="fragment_cursos"
+        android:label="@string/menu_cursos"
         tools:layout="@layout/fragment_cursos" />
     <fragment
         android:id="@+id/nav_publicacoes"
         android:name="br.edu.infnet.carlos.ui.publicacoes.PublicacoesFragment"
-        android:label="fragment_publicacoes"
+        android:label="@string/menu_publicacoes"
         tools:layout="@layout/fragment_publicacoes" />
 </navigation>

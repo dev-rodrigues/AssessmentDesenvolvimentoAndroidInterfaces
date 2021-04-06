@@ -9,6 +9,7 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import br.edu.infnet.carlos.R
+import br.edu.infnet.carlos.ui.ExperienciaProfissionalInformacoesPessoaisViewModel.ExperienciaProfissionalViewModel
 
 class ExperienciaProfissionalFragment : Fragment() {
 
@@ -21,11 +22,7 @@ class ExperienciaProfissionalFragment : Fragment() {
     ): View? {
         slideshowViewModel =
                 ViewModelProvider(this).get(ExperienciaProfissionalViewModel::class.java)
-        val root = inflater.inflate(R.layout.fragment_slideshow, container, false)
-        val textView: TextView = root.findViewById(R.id.text_slideshow)
-        slideshowViewModel.text.observe(viewLifecycleOwner, Observer {
-            textView.text = it
-        })
+        val root = inflater.inflate(R.layout.fragment_experiencia_profissional, container, false)
         return root
     }
 }

@@ -1,4 +1,4 @@
-package br.edu.infnet.carlos.ui.ExperienciaProfissional
+package br.edu.infnet.carlos.ui.ExperienciaProfissionalInformacoesPessoaisViewModel
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
